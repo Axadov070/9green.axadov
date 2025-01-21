@@ -839,66 +839,126 @@ Namuna: Salom mening ismim Nigora, yoshim 23 da. Namanganda yashayman va BM makt
 # print("ikkinchi meva:",mevalar[1])
 # print("uchinchi meva:",mevalar[3])
 
+# import turtle
+# import colorsys
+
+# # Ekranni o'rnatish
+# screen = turtle.Screen()
+# screen.bgcolor("black")
+# screen.title("Rangli Spiral Animatsiya")
+
+# # Turtle ob'ektini yaratish
+# pen = turtle.Turtle()
+# pen.speed(0)  # Eng tezkor tezlik
+
+# # Spiralni chizish
+# def draw_spiral():
+#     pen.width(2)
+#     hue = 0  # Rangni boshiga qoyish
+#     for i in range(360):
+#         pen.pencolor(colorsys.hsv_to_rgb(hue, 1, 1))  # Rangni HSL modeliga o'zgartirish
+#         pen.forward(i * 3 / 2 + i)  # Har bir qadamni kengaytirish
+#         pen.left(59)  # Har doim 59 daraja burilish
+#         hue += 0.005  # Rangning o'zgarishi
+
+# # Animatsiyani boshlash
+# draw_spiral()
+
+# # Ekranni yopish uchun foydalanuvchi kiritishni kutish
+# turtle.done()
+
+
+
+# mevalar = ['olma', 'anjir', 'shaftoli', 'o`rik']
+# print("birinchi meva: ", mevalar[0].title())
+# print("ikkinchi meva: ",mevalar[1].upper())
+# print("uchinchi  meva: ",mevalar[2].capitalize())
+# print("tortinchi  meva: ",mevalar[3].strip())
+
+
+# narxlar = ['500.000',  '120000', '23000']
+# print("birinchi narx : " ,narxlar[0])
+# print("ikkinchi narx : " ,narxlar[1])
+# print("uchinchi narx : " ,narxlar[2])
+
+
+
+# car_models = ['Toyota', 'GM', 'Volvo', 'BMW', 'Hyundai', 'Kia', 'Volkswagen']
+# print(car_models[-7]) # Listning eng oxirgi elementiga -1 bilan murojat qilamiz 
+
+# narhlar = [12000, 18000, 10900, 22000]
+# narhlar[0] = 13000 # 1-qiymatni 13000 ga o'zgartiramiz
+# narhlar[2] = 11000 # 3-qiymatni 11000 ga o'zgartiramiz
+# narhlar[3] = narhlar[3]+2000 # 4-qiymatga 2000 qo'shamiz
+# print(narhlar)
+
+
+# narx = [12000, 18000, 10900, 22000]
+# narx[0] = 21000
+# narx[1] = 33000
+
+# print(narx[0])
+# print(narx[1])
+
+
+
+# cars = [] # bo'sh ro'yxat yaratamiz
+# cars.append('Lacetti') # ro'yxatga Lacetti mashinasini qo'shamiz
+# cars.append('Nexia 3') # ro'yxatga Nexia 3 mashinasini qo'shamiz
+# cars.append('Cobalt')  # ro'yxatga Cobalt  mashinasini qo'shamiz
+# print(cars)
+
+
+# cars = []
+# cars.append('lacetto')
+# cars.append("nexia 3")
+# cars.append("tahoe")
+# print("sizning mashinangiz: ",[cars])
+
+
+
+
+# bozorlik = ['yog`', 'un', ' piyoz', 'banan', 'go`sht']
+# mahsulot = bozorlik.pop(3) 
+# print("men " + mahsulot + " sotib oldim")
+# print("olinmagan mahsulotlar: ", bozorlik )
+
+
+# mevalar = ['olma', 'anjir', 'shaftoli', "o'rik"]
+# mevalar.append("tarvuz")
+# print(mevalar)
+
+
+# ismlar = ['abdulbosit', 'umar', 'mahdiy']
+# print("Salom " + ismlar [0].title() + ' bugun kampitur xonaga borasanmi')
+# print("Salom " + ismlar[1].title() + ' bugun kampitur xonaga borasami ')
+# print("Salom " + ismlar[2].title() + ' bugun kampitur xonaga borasami ')
 
 
 
 
 
 
+# mevalar = ['olma', 'anjir', 'shaftoli', "o'rik"] # mevalar ro'yxati (matnlar)
+# narhlar = [12000, 18000, 10900, 22000] # narhlar ro'yxati (sonlar)
+# sonlar = ['bir', 'ikki', 3, 4, 5] # sonlar va matnlar aralash ro'yxat
+# ismlar = ['abubakir', 'umar'] 
+# print("birinchi meva", mevalar[0])
+# print("olma narxi 1 kg ", [narhlar[1]])
+# print("eng zor son bu ", [sonlar[4]])
+# print("ismlarni yaxshisi bu", [ismlar[1]])
+
+mevalar = ['olma', 'anjir', 'shaftoli', "o'rik"] # mevalar ro'yxati (matnlar)
+print("Birinchi meva: ", mevalar[0].title())
+print("Ikkinchi meva: ", mevalar[1].upper())
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+narhlar = [12000, 18000, 10900, 22000]
+print(narhlar[2] + narhlar[3])
 
 
 
