@@ -1096,46 +1096,38 @@ Namuna: Salom mening ismim Nigora, yoshim 23 da. Namanganda yashayman va BM makt
 
 
 """ 3 mashq  """
-sonlar = [-34, 45, 0, -65.3, 3.6, 2, 62]
+# sonlar = [-34, 45, 0, -65.3, 3.6, 2, 62]
+
+# print(sonlar[2] + sonlar[4] )
+
+# print(sonlar[-6] / sonlar[-2])
+
+
+# import math
+# print(math.sqrt(sonlar[1]))
+
+
+""" 4 mashq  """
+
+
+
+# kitob = []
+# kitob.append(input("birinchi oqigan kitobizni kiriting: "))
+# kitob.append(input("ikkinchi  oqigan kitobizni kiriting: "))
+# kitob.append(input("uchinchi oqigan kitobizni kiriting: "))
+# kitob.append(input("tirtinchi oqigan kitobizni kiriting: "))
+# kitob.append(input("beshinchi oqigan kitobizni kiriting: "))
+# print(f' siz oqigan kitoblariz ---> {kitob}')
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+""" 5  mashq  """
+# snfdow = ['Abdurauf', 'Abdulaxad', 'Zinnurbek', 'MuhammadYusuf',]
+# snfdow.append('qorixon')
+# snfdow.insert(2, 'pokiza')
+# snfdow.insert(0, 'Jonibek')
+# print(snfdow)
 
 
 
