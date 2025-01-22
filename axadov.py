@@ -849,7 +849,7 @@ Namuna: Salom mening ismim Nigora, yoshim 23 da. Namanganda yashayman va BM makt
 
 # # Turtle ob'ektini yaratish
 # pen = turtle.Turtle()
-# pen.speed(0)  # Eng tezkor tezlik
+# pen.speed(77)  # Eng tezkor tezlik
 
 # # Spiralni chizish
 # def draw_spiral():
@@ -948,34 +948,69 @@ Namuna: Salom mening ismim Nigora, yoshim 23 da. Namanganda yashayman va BM makt
 # print("eng zor son bu ", [sonlar[4]])
 # print("ismlarni yaxshisi bu", [ismlar[1]])
 
-mevalar = ['olma', 'anjir', 'shaftoli', "o'rik"] # mevalar ro'yxati (matnlar)
-print("Birinchi meva: ", mevalar[0].title())
-print("Ikkinchi meva: ", mevalar[1].upper())
+# mevalar = ['olma', 'anjir', 'shaftoli', "o'rik"] # mevalar ro'yxati (matnlar)
+# print("Birinchi meva: ", mevalar[0].title())
+# print("Ikkinchi meva: ", mevalar[1].upper())
 
+# narhlar = [12000, 18000, 10900, 22000]
+# print(narhlar[2] + narhlar[3])
 
 
 
+# car_models = ['Toyota', 'GM', 'Volvo', 'BMW', 'Hyundai', 'Kia', 'Volkswagen']
+# print(car_models[-1]) # Listning eng oxirgi elementiga -1 bilan murojat qilamiz 
 
 
-narhlar = [12000, 18000, 10900, 22000]
-print(narhlar[2] + narhlar[3])
 
 
+# narhlar = [12000, 18000, 10900, 22000]
+# narhlar[0] = 13000 # 1-qiymatni 13000 ga o'zgartiramiz
+# narhlar[2] = 11000 # 3-qiymatni 11000 ga o'zgartiramiz
+# narhlar[3] = narhlar[3]+2000 # 4-qiymatga 2000 qo'shamiz
+# print(narhlar)
 
 
 
 
+# mevalar = ['olma', 'anjir', 'shaftoli', "o'rik"]
+# del[mevalar[0]] # mevalar ga tarvuz qo'shamiz
+# print(mevalar)
 
 
 
+# moshina  = input("bitta mashina kirit: ")
+# moshina  = input("bitta mashina kirit: ")
+# moshina  = input("bitta mashina kirit: ")
+# cars = []
+# cars.append(f"{moshina} rostanxam yaxshi mashina ! ") # ro'yxatga Lacetti mashinasini qo'shamiz
+# # cars.append('Nexia 3') # ro'yxatga Nexia 3 mashinasini qo'shamiz
+# # cars.append('Cobalt')  # ro'yxatga Cobalt  mashinasini qo'shamiz
+# print(cars)
 
 
+# cars = [] # bo'sh ro'yxat yaratamiz
+# cars.append('Lacetti') # ro'yxatga Lacetti mashinasini qo'shamiz
+# cars.append('Nexia 3') # ro'yxatga Nexia 3 mashinasini qo'shamiz
+# cars.append('Cobalt')  # ro'yxatga Cobalt  mashinasini qo'shamiz
+# cars.append(input("moshina kirit bitta ! ----> ")) 
+# print(cars)
 
 
 
 
 
 
+# class Avto:
+#     __num_avto = 0
+#     """Avtomobil klassi"""
+#     def __init__(self,make,model,rang,yil,narh):
+#         """Avtomobilning xususiyatlari"""
+#         self.make = make
+#         self.model = model
+#         self.rang = rang
+#         self.yil = yil
+#         self.narh = narh
+#         Avto.__num_avto += 1
 
 
 
@@ -984,85 +1019,84 @@ print(narhlar[2] + narhlar[3])
 
 
 
+# class Avto:
+#     __num_avto = 0
+#     """Avtomobil klassi"""
+#     def __init__(self,make,model,rang,yil,narh):
+#         """Avtomobilning xususiyatlari"""
+#         self.make = make
+#         self.model = model
+#         self.rang = rang
+#         self.yil = yil
+#         self.narh = narh
+#         Avto.__num_avto += 1
+    
+#     def __repr__(self):
+#         """Obyekt haqida ma'lumot"""
+#         return f"Avto: {self.rang} {self.make} {self.model}"
 
 
 
 
+# import datetime as dt
+# hozir = dt.datetime.now()
+# print(hozir)
 
 
+# import datetime as dt
+# hozir = dt.datetime.now()
+# print(hozir)
 
 
 
 
 
 
+# son = 3.14159
+# yaxlitlangan_son = round(son, 2)  # 2 raqamli kasrga yaxlitlash
+# print(yaxlitlangan_son)
 
 
 
+# son = 6.7131
+# yaxlitlangan_son = round(son, 3)
+# print(yaxlitlangan_son)
 
 
 
+# import random
+# son1 = int(input('son kiritng: '))
+# son2 = int(input('2 chi sonni kiriting: '))
+# print(random.randrange(son1,son2))
 
 
+# from math import sqrt
 
+# print(round(2.43835334534534, 2))
+# print(round(2.64353))
 
+# print(round(67**3, 2)+sqrt(722))
 
 
 
+""" 1 mashq  """
+# import math
+# print( round(math.sqrt(round(67365/32, 2)**3), 3))
 
+""" 2  mashq  """
+# bozorlik = []
+# bozorlik.append('avacado ')
+# bozorlik.append('olma')
+# bozorlik.append('ananas')
+# bozorlik.append('anor')
+# bozorlik.append('anjir')
+# bozorlik.insert(2,'kivi')
+# bozorlik.insert(6,'banan')
+# print(bozorlik)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+""" 3 mashq  """
+sonlar = [-34, 45, 0, -65.3, 3.6, 2, 62]
 
 
 
