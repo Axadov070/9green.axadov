@@ -1172,7 +1172,7 @@ Namuna: Salom mening ismim Nigora, yoshim 23 da. Namanganda yashayman va BM makt
 # draw_pattern()
 # turtle.done()
 
-
+from builtins import print
 
 # mevalar = ['olma', 'anjir', 'shaftoli', "o'rik", 'anor']
 # del mevalar[1] # 2-element (anjir) ni o'chirib tashlaymiz
@@ -1182,79 +1182,66 @@ Namuna: Salom mening ismim Nigora, yoshim 23 da. Namanganda yashayman va BM makt
 
 
 
- 
+# sonlar = [1, 2, 3, 4, 5]
+# sonlar2 = sonlar
+# sonlar2.append(6)
+# sonlar2.append(7)
+# print("Bu sonlar ro'yxati:", sonlar)
+# print("Bu sonlar2 ro'yxati:", sonlar2)
 
 
 
+""" imtihon kodi : 7G010 """
 
 
+""" 1 mashq """
 
 
+# for _ in range(555):
+#     print('salom jonibek')
 
 
+""" 2  mashq """
 
 
 
+# sonlar = list(range(6,100,2))
+# print(sonlar)
 
 
 
+""" 3 mashq """
 
 
+# sonlar = list(range(11,50,2))
+# print(sonlar)
 
 
+""" 4 mashq """
 
 
 
+# mevalar = []
+# mevalar.append(input("1 ta  meva kiritng: "))
+# mevalar.append(input("ikkinchi  meva kiritng: "))
+# mevalar.append(input("uchinchi  meva kiritng: "))
+# mevalar.append(input("tortinchi meva kiritng: "))
+# mevalar.append(input("beshinchi  meva kiritng: "))
+# print(f" siz yegan mevalar{mevalar}")
 
 
 
+""" 5 mashq """
 
+#Foydalanuvchidan 6 ta, uning eng yaxshi do’stlari ismini so’rab, do’stlar deb nomlangan ro’yhatga qo’shing(for tsikli yordamida). Va ro’yhatdagi hamma ismlarni konsulga chiqaring.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# dost = []
+# dost.append(input("birinchi dostizni ismini kiritng: "))
+# dost.append(input("ikkinchi  dostizni ismini kiritng: "))
+# dost.append(input("uchinchi dostizni ismini kiritng: "))
+# dost.append(input("to'rtinchi dostizni ismini kiritng: "))
+# dost.append(input("beshinchi  dostizni ismini kiritng: "))
+# print(dost)
 
 
 
