@@ -1,10 +1,7 @@
 """ 1 mashq """
 
-
-
-
 # sonlar = [5,-45,635,321,-45,453-12]
-# sonlar.sort()
+# sonlar.sort()----
 # print(sonlar)
 
 # sonlar.sort(reverse=True)
@@ -76,9 +73,6 @@
 # print(f"assalomu aleykum siz {yosh+10} siz yoshdasiz va {T_yil} yilda tugilgansiz ")
 
 
-
-
-
 """ 3 mashq """
 
 
@@ -88,21 +82,138 @@
 # print(random.randrange(son1,son2))
 
 
-
-
 """ 4 mashq """
 
-a = int(input("Birinchi sonni kiriting: "))
-b = int(input("Ikkinchi sonni kiriting: "))
-c = int(input("Uchinchi sonni kiriting: "))
-d = int(input("To'rtinchi sonni kiriting: "))
+# a = int(input("Birinchi sonni kiriting: "))
+# b = int(input("Ikkinchi sonni kiriting: "))
+# c = int(input("Uchinchi sonni kiriting: "))
+# d = i++++++++++++++++++++][[[[[[[[[]]]]=+++++++++++++++++++++++++++++++++++++++++++-----------------------------------------------------------------++++++++++++++++++++++++++++++*++++++++++++++++*++++++++++++++++++++
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# ****************************--nt(input("To'rtinchi sonni kiriting: "))
 
 
-result = (a ** b) / c
 
-rounded_result = round(result, d)
 
-print("Natija:", rounded_result)
+
+
+
+
+# result = (a ** b) / c
+
+# rounded_result = round(result, d)
+
+# print("Natija:", rounded_result)
+
+# sonlar = list(range(1,11))
+# for son  in sonlar: 
+#     print(f"{son} ning kvadrati {son**100} $ ga teng ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

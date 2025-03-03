@@ -1038,14 +1038,12 @@ Namuna: Salom mening ismim Nigora, yoshim 23 da. Namanganda yashayman va BM makt
 
 
 
-# import datetime as dt
-# hozir = dt.datetime.now()
-# print(hozir)
 
 
-# import datetime as dt
-# hozir = dt.datetime.now()
-# print(hozir)
+
+import datetime as dt
+hozir = dt.datetime.now()
+print(hozir)
 
 
 
@@ -1233,8 +1231,6 @@ from builtins import print
 
 """ 5 mashq """
 
-#Foydalanuvchidan 6 ta, uning eng yaxshi do’stlari ismini so’rab, do’stlar deb nomlangan ro’yhatga qo’shing(for tsikli yordamida). Va ro’yhatdagi hamma ismlarni konsulga chiqaring.
-
 # dost = []
 # dost.append(input("birinchi dostizni ismini kiritng: "))
 # dost.append(input("ikkinchi  dostizni ismini kiritng: "))
@@ -1242,6 +1238,45 @@ from builtins import print
 # dost.append(input("to'rtinchi dostizni ismini kiritng: "))
 # dost.append(input("beshinchi  dostizni ismini kiritng: "))
 # print(dost)
+
+
+
+
+
+
+
+import turtle
+import math
+
+wn = turtle.Screen()
+wn.bgcolor("black") 
+wn.title("Rangli Spiral Illuziya")
+
+
+pen = turtle.Turtle()
+pen.speed(0)
+
+
+colors = ["red", "yellow", "blue", "green", "purple", "orange"]
+
+
+for i in range(360):
+    pen.pencolor(colors[i % 6])  
+    pen.width(i / 100 + 1) 
+    pen.forward(math.sin(math.radians(i)) * 100)  
+turtle.done()  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
